@@ -8,4 +8,10 @@ int main() {
   printf("sizeof float = %ld\n", sizeof(float));
   printf("sizeof double = %ld\n", sizeof(double));
   printf("sizeof long double = %ld\n", sizeof(long double));
+
+  char c = 128;
+  printf("%d\n", c);
+
+  float pi = 3.1415926535898;
+  printf("%f\n", pi * 10000);
 }
