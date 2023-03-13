@@ -7,7 +7,6 @@ int main() {
   printf("sizeof long long = %ld\n", sizeof(long long));
   printf("sizeof float = %ld\n", sizeof(float));
   printf("sizeof double = %ld\n", sizeof(double));
-  printf("sizeof long double = %ld\n", sizeof(long double));
 
   char i = 128;  // 0b10000000
   int j = 128;   
