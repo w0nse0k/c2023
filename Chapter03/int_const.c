@@ -1,3 +1,4 @@
+/* p.93 */
 #include <stdio.h>
 int main() {
   int i = 128;
