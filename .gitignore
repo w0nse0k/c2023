@@ -1,8 +1,9 @@
 # ignore all
 *
+# unignore directories
+!*/
 # unignore c
 !*.c
-# unignore README.md
-!README.md
-# unignore .gitignore
+# unignore
 !.gitignore
+!README.md

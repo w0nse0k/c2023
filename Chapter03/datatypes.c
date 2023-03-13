@@ -9,9 +9,13 @@ int main() {
   printf("sizeof double = %ld\n", sizeof(double));
   printf("sizeof long double = %ld\n", sizeof(long double));
 
-  char c = 128;
-  printf("%d\n", c);
+  char i = 128;  // 0b10000000
+  int j = 128;   
+  printf("%d\n", i);
+  printf("%d\n", j);
 
-  float pi = 3.1415926535898;
-  printf("%f\n", pi * 10000);
+  float pi1 = 3.1415926535897932384626433;
+  double pi2 = 3.1415926535897932384626433;
+  printf("%.20f\n", pi1);
+  printf("%.20f\n", pi2);
 }
